@@ -10,4 +10,13 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
+  groceries.collect do |category, item|
+    category    
+  end 
 end
+
+#groceries.keys.flatten IS THE ANSWER but this is another way to return
+
+# #get_the_keys
+# [:dairy, ["milk", "yogurt", "cheese"]]
+#   returns all the keys from the hash
